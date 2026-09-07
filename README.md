@@ -1,2 +1,363 @@
-# samebest
-samebest銷售簡介
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【升學王】高中數位居家學習優勢解析 - 洪鳳玲專員</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-100 flex justify-center items-center min-h-screen p-0 sm:p-4">
+
+    <div class="w-full max-w-md bg-white shadow-2xl rounded-none sm:rounded-3xl overflow-hidden border border-slate-200">
+        
+        <!-- HEADER 區塊 -->
+        <header class="bg-gradient-to-br from-blue-950 via-indigo-900 to-slate-900 text-white p-6 text-center relative">
+            <div class="absolute top-3 right-4 bg-amber-400 text-slate-950 text-[11px] font-black px-2.5 py-1 rounded-full shadow flex items-center space-x-1">
+                <span>⭐</span><span>升學王・官方特約</span>
+            </div>
+            <span class="inline-block bg-blue-800/80 text-blue-200 text-xs px-3 py-1 rounded-full mb-3 font-medium border border-blue-700/50">
+                108課綱 應對首選
+            </span>
+            <h1 class="text-2xl font-black leading-snug mb-2 tracking-tight text-amber-300">
+                把時間還給孩子<br>告別每天疲憊的補習奔波
+            </h1>
+            <p class="text-slate-300 text-xs font-light leading-relaxed">
+                結合鑽石級名師與百萬題庫，為孩子打造在家高效複習的黃金 3 年。
+            </p>
+
+            <!-- 專員個人名片卡片 -->
+            <div class="mt-5 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3.5 flex items-center space-x-3 text-left shadow-lg">
+                <div class="w-12 h-12 bg-gradient-to-tr from-amber-400 to-amber-300 text-slate-950 font-black rounded-full flex items-center justify-center text-lg shrink-0 shadow-md">
+                    洪
+                </div>
+                <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-white font-bold text-sm">洪鳳玲</h2>
+                        <span class="bg-amber-400/20 text-amber-300 text-[10px] px-2 py-0.5 rounded font-medium border border-amber-400/30">輔導教育專員</span>
+                    </div>
+                    <p class="text-indigo-200 text-[11px] mt-0.5">升學王・專屬教育專員</p>
+                    <div class="mt-1.5 flex flex-col space-y-1">
+                        <a href="tel:0903046110" class="inline-flex items-center space-x-1 text-amber-300 hover:text-amber-200 text-xs font-bold bg-amber-400/10 px-2 py-1 rounded-lg border border-amber-400/20 transition w-fit">
+                            <span>📞</span>
+                            <span>0903-046-110 (點擊通話)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="p-5 space-y-5">
+
+            <!-- 痛點區塊 -->
+            <section class="bg-red-50/70 border border-red-100 rounded-2xl p-4 shadow-sm">
+                <div class="flex items-center space-x-2 mb-3">
+                    <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold text-sm shrink-0">🛑</div>
+                    <h2 class="text-red-950 font-bold text-sm">您家的孩子，是否也正經歷這些困擾？</h2>
+                </div>
+                <div class="space-y-2.5 text-xs">
+                    <div class="bg-white p-3 rounded-xl shadow-sm border border-red-100 flex items-start space-x-3">
+                        <div class="w-7 h-7 rounded-lg bg-red-50 flex items-center justify-center text-red-500 font-bold text-base shrink-0 mt-0.5">🚗</div>
+                        <div>
+                            <h3 class="text-slate-900 font-bold">每天趕場好累、睡眠不足</h3>
+                            <p class="text-slate-600 mt-0.5 leading-relaxed">風雨無阻趕便當、搭車，孩子疲憊不堪，家長接送長期壓力大。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl shadow-sm border border-red-100 flex items-start space-x-3">
+                        <div class="w-7 h-7 rounded-lg bg-red-50 flex items-center justify-center text-red-500 font-bold text-base shrink-0 mt-0.5">⏳</div>
+                        <div>
+                            <h3 class="text-slate-900 font-bold">聽不懂卻不能倒帶重聽</h3>
+                            <p class="text-slate-600 mt-0.5 leading-relaxed">大班制進度跟不上不敢問，分心秒失關鍵考點，累積成學習漏洞。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-3 rounded-xl shadow-sm border border-red-100 flex items-start space-x-3">
+                        <div class="w-7 h-7 rounded-lg bg-red-50 flex items-center justify-center text-red-500 font-bold text-base shrink-0 mt-0.5">💸</div>
+                        <div>
+                            <h3 class="text-slate-900 font-bold">花大錢補習卻不見成效</h3>
+                            <p class="text-slate-600 mt-0.5 leading-relaxed">學費高昂，大考盲點與弱點依然沒有被真正解決，成績卡關。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 學習模式對比 -->
+            <section class="bg-slate-50 border border-slate-200 rounded-2xl p-4 shadow-sm">
+                <div class="flex items-center space-x-2 mb-3">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 font-bold text-sm shrink-0">📊</div>
+                    <h2 class="text-slate-900 font-bold text-sm">學習模式大對比：哪種更有效？</h2>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-2 text-xs text-center mb-2.5 font-bold">
+                    <div class="bg-red-100 text-red-900 py-2 rounded-xl border border-red-200">❌ 傳統補習班</div>
+                    <div class="bg-emerald-100 text-emerald-900 py-2 rounded-xl border border-emerald-200">✨ 升學王・居家</div>
+                </div>
+
+                <div class="space-y-2 text-xs">
+                    <div class="grid grid-cols-2 gap-2 bg-white p-3 rounded-xl border border-slate-200 items-center shadow-xs">
+                        <div class="text-slate-500 text-center text-[11px] leading-tight">🚗 每天趕車接送，耗時耗體力</div>
+                        <div class="text-emerald-800 font-semibold text-center bg-emerald-50/80 p-2 rounded-lg border border-emerald-100 text-[11px] leading-tight">⏱️ 在家省時，多睡1小時</div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 bg-white p-3 rounded-xl border border-slate-200 items-center shadow-xs">
+                        <div class="text-slate-500 text-center text-[11px] leading-tight">⏳ 進度固定，聽不懂無法重聽</div>
+                        <div class="text-emerald-800 font-semibold text-center bg-emerald-50/80 p-2 rounded-lg border border-emerald-100 text-[11px] leading-tight">🔄 名師重點無限重複看</div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 bg-white p-3 rounded-xl border border-slate-200 items-center shadow-xs">
+                        <div class="text-slate-500 text-center text-[11px] leading-tight">💸 單次高昂學費，無個人輔導</div>
+                        <div class="text-emerald-800 font-semibold text-center bg-emerald-50/80 p-2 rounded-lg border border-emerald-100 text-[11px] leading-tight">🎯 百萬題庫精準突破弱點</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 核心優勢 -->
+            <section class="bg-blue-50/70 border border-blue-100 rounded-2xl p-4 shadow-sm">
+                <div class="flex items-center space-x-2 mb-3">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-sm shrink-0">💎</div>
+                    <h2 class="text-blue-950 font-bold text-sm">升學王 3 大核心優勢</h2>
+                </div>
+                <div class="space-y-2.5 text-xs">
+                    <div class="bg-white p-3.5 rounded-xl shadow-sm border border-blue-100 flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 font-black flex items-center justify-center text-lg shrink-0 shadow-inner">👨‍🏫</div>
+                        <div>
+                            <h3 class="text-slate-900 font-bold">鑽石級名師陣容</h3>
+                            <p class="text-slate-600 mt-0.5 leading-relaxed">匯集全台各科頂尖名師，完整收錄關鍵考點，在家享受殿堂級指導。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl shadow-sm border border-blue-100 flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 font-black flex items-center justify-center text-lg shrink-0 shadow-inner">📚</div>
+                        <div>
+                            <h3 class="text-slate-900 font-bold">百萬精選題庫</h3>
+                            <p class="text-slate-600 mt-0.5 leading-relaxed">符合最新課綱與大考趨勢，自訂難易度並支援解析，實戰力倍增。</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl shadow-sm border border-blue-100 flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 font-black flex items-center justify-center text-lg shrink-0 shadow-inner">💡</div>
+                        <div>
+                            <h3 class="text-slate-900 font-bold">數位雲端筆記</h3>
+                            <p class="text-slate-600 mt-0.5 leading-relaxed">電子講義與錯題本隨開隨看，雲端同步讓複習不再大包小包。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 公司簡介與師資折疊區塊 -->
+            <section class="bg-slate-50 border border-slate-200 rounded-2xl p-4 shadow-sm space-y-3">
+                <div class="flex items-center space-x-2 mb-1">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 font-bold text-sm shrink-0">🏛️</div>
+                    <h2 class="text-slate-900 font-bold text-sm">升學王官方實力總覽與師資介紹</h2>
+                </div>
+                <p class="text-[11px] text-slate-500 leading-relaxed">點擊下方主題，即可展開檢視官方榮耀與全明星師資名單：</p>
+
+                <!-- 展開項目 1：公司簡介 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-xs">
+                    <button onclick="toggleAccordion('acc-1')" class="w-full p-3 text-left font-bold text-xs text-slate-800 flex justify-between items-center bg-indigo-50/50 hover:bg-indigo-50 transition">
+                        <span class="flex items-center space-x-2">
+                            <span>⭐</span>
+                            <span>⭐ 我們的榮光時刻（點擊展開）</span>
+                        </span>
+                        <span id="icon-1" class="text-indigo-600 font-black text-sm">▼</span>
+                    </button>
+                    <div id="acc-1" class="hidden p-3.5 text-xs text-slate-600 space-y-3 border-t border-slate-100 bg-white leading-relaxed">
+                        <p class="font-bold text-indigo-950 text-sm">「升學王」為三貝德數位文創旗下產品。實力備受各界肯定：</p>
+                        
+                        <div class="space-y-2 text-[11px]">
+                            <div class="border-l-2 border-amber-400 pl-2.5">
+                                <span class="font-bold text-slate-900">2021 年</span>
+                                <p class="text-slate-600">榮獲【財政部 110 年度開立統一發票績優營業人】</p>
+                            </div>
+                            <div class="border-l-2 border-amber-400 pl-2.5">
+                                <span class="font-bold text-slate-900">2019 年</span>
+                                <p class="text-slate-600">宣布與「美加教育集團」合作，推動留（遊）學服務；榮獲【華人創業家大獎】台灣優質產品金牌獎、第19屆【金峰獎】、第16屆【國家品牌玉山獎】、第15屆【金炬獎】。</p>
+                            </div>
+                            <div class="border-l-2 border-amber-400 pl-2.5">
+                                <span class="font-bold text-slate-900">2018 年</span>
+                                <p class="text-slate-600">榮獲【台灣創業家大獎】台灣優質產品金牌獎；「三貝德國考線上」國家證照數位學習上線、合作愛奇藝影音平台、設立「致勝先師教育」子公司整合線上線下家教、子公司「亞洲教育平台」正式併購「朱希資優」及「多向思考」補習機構、攜手「奧林匹克文化事業」舉辦第 48 屆全國奧林匹克數學競賽；獲邀參與【第 16 屆華人領袖遠見高峰會】；榮獲【台灣優良精品認證】台灣創新第一品牌大獎。</p>
+                            </div>
+                            <div class="border-l-2 border-amber-400 pl-2.5">
+                                <span class="font-bold text-slate-900">2017 年</span>
+                                <p class="text-slate-600">三貝德實力受台灣凱基創投、華鴻創投等專業投資人青睞，於櫃買中心正式<span class="font-bold text-indigo-900">掛牌上櫃</span>；榮獲【第十八屆金峰獎】十大傑出企業、十大傑出創新研發。</p>
+                            </div>
+                            <div class="border-l-2 border-amber-400 pl-2.5">
+                                <span class="font-bold text-slate-900">2016 年 & 2014 年</span>
+                                <p class="text-slate-600">榮獲【第十三屆中華民國年度十大企業－金炬獎】年度十大績優企業、年度十大績優商品；獲評【德勤亞太區高科技、高成長 500 強】第 205 名／台灣區第 11 名。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 展開項目 2：師資介紹 (雙欄並列排版) -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-xs">
+                    <button onclick="toggleAccordion('acc-2')" class="w-full p-3 text-left font-bold text-xs text-slate-800 flex justify-between items-center bg-indigo-50/50 hover:bg-indigo-50 transition">
+                        <span class="flex items-center space-x-2">
+                            <span>👨‍🏫</span>
+                            <span>師資簡介：國高中一線巨星師資陣容（點擊展開）</span>
+                        </span>
+                        <span id="icon-2" class="text-indigo-600 font-black text-sm">▼</span>
+                    </button>
+                    <div id="acc-2" class="hidden p-3.5 text-xs text-slate-600 space-y-4 border-t border-slate-100 bg-white leading-relaxed">
+                        <p class="font-bold text-indigo-950 text-sm">網羅全台各科榜首搖籃之名師群，給同學最爐火純青的內容：</p>
+                        
+                        <!-- 高中名師區塊 (2欄並列) -->
+                        <div class="bg-indigo-50/40 border border-indigo-100 rounded-xl p-3 space-y-2">
+                            <h3 class="font-black text-indigo-950 text-xs flex items-center space-x-1.5 border-b border-indigo-200 pb-1.5">
+                                <span>🎓</span>
+                                <span>【高中巨星名師陣容】</span>
+                            </h3>
+                            <div class="grid grid-cols-2 gap-1.5 text-[11px] text-slate-700">
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">物理科</span>
+                                    <span class="text-slate-800 font-medium">魏宏泰</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">地理科</span>
+                                    <span class="text-slate-800 font-medium">吳弘理</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">化學科</span>
+                                    <span class="text-slate-800 font-medium">王宇</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">英文科</span>
+                                    <span class="text-slate-800 font-medium">齊斌</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">生物科</span>
+                                    <span class="text-slate-800 font-medium">游夏</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">國文科</span>
+                                    <span class="text-slate-800 font-medium">楊墨</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">數學科</span>
+                                    <span class="text-slate-800 font-medium">林名揚、陳平</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">公民科</span>
+                                    <span class="text-slate-800 font-medium">陳陞</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">歷史科</span>
+                                    <span class="text-slate-800 font-medium">高健</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-blue-900 w-20 shrink-0">地科名師</span>
+                                    <span class="text-slate-800 font-medium">蔡宏泰</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 國中名師區塊 (2欄並列) -->
+                        <div class="bg-amber-50/40 border border-amber-100 rounded-xl p-3 space-y-2">
+                            <h3 class="font-black text-amber-950 text-xs flex items-center space-x-1.5 border-b border-amber-200 pb-1.5">
+                                <span>🎒</span>
+                                <span>【國中巨星名師陣容】</span>
+                            </h3>
+                            <div class="grid grid-cols-2 gap-1.5 text-[11px] text-slate-700">
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">數學科</span>
+                                    <span class="text-slate-800 font-medium">張淞豪、林名揚</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">理化科</span>
+                                    <span class="text-slate-800 font-medium">陳毅</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">國文科</span>
+                                    <span class="text-slate-800 font-medium">董澤、楊墨</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">英文科</span>
+                                    <span class="text-slate-800 font-medium">齊斌、艾葳</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">歷史科</span>
+                                    <span class="text-slate-800 font-medium">周泰</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">地理科</span>
+                                    <span class="text-slate-800 font-medium">劉成霖</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">公民科</span>
+                                    <span class="text-slate-800 font-medium">邵爺、陳陞</span>
+                                </div>
+                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
+                                    <span class="font-bold text-amber-900 w-20 shrink-0">生物科</span>
+                                    <span class="text-slate-800 font-medium">曾澈</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- 體驗預約說明 -->
+            <section class="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-slate-900 shadow-sm">
+                <div class="flex items-center space-x-2 mb-2">
+                    <span class="text-lg">🎁</span>
+                    <h2 class="font-bold text-sm text-amber-950">限時預約免費到府體驗</h2>
+                </div>
+                <p class="text-xs text-slate-700 leading-relaxed">
+                    百聞不如一見！專業輔導專員（<span class="font-bold text-slate-900">洪鳳玲</span>）將為您的孩子提供：
+                </p>
+                <ul class="text-xs text-slate-700 list-disc list-inside mt-1.5 space-y-1 font-medium">
+                    <li>免費學科盲點與成績落點健檢</li>
+                    <li>現場實際操作「升學王」數位學習系統體驗</li>
+                </ul>
+                <p class="text-[11px] text-amber-800 font-semibold mt-2.5 bg-amber-100/60 p-2 rounded-lg border border-amber-200/60">
+                    ※ 官方授權預約，完全免費、不具強迫推銷壓力。
+                </p>
+            </section>
+
+            <!-- LINE 諮詢區塊 -->
+            <section class="bg-indigo-950 text-white rounded-2xl p-5 shadow-xl border border-indigo-900 text-center">
+                <div class="inline-block bg-amber-400 text-slate-950 text-[11px] font-black px-2.5 py-1 rounded-full mb-2 shadow">
+                    💬 立即線上諮詢
+                </div>
+                <h2 class="font-bold text-base mb-1 text-amber-300">加入專屬 LINE@ 與洪專員對話</h2>
+                <p class="text-xs text-indigo-200 mb-4">由 <span class="text-amber-300 font-bold">洪鳳玲專員 (0903-046-110)</span> 親自為您提供升學規劃與免費體驗預約</p>
+                
+                <!-- LINE QR Code 圖片區 -->
+                <div class="bg-white p-3 rounded-2xl w-36 h-36 mx-auto mb-4 shadow-md flex items-center justify-center border border-indigo-200">
+                    <img src="https://qr-official.line.me/gs/M_318zdgnx_GW.png?oat_content=qr" alt="洪鳳玲專員 LINE QR Code" class="w-full h-full object-contain" onerror="this.src='https://placehold.co/120x120/ffffff/000000?text=LINE+QR+Code'">
+                </div>
+                <p class="text-[11px] text-indigo-300 mb-4">LINE ID: <span class="text-amber-300 font-bold">@318zdgnx</span> (點擊下方按鈕直接加入)</p>
+
+                <!-- 一鍵加入 LINE 按鈕 -->
+                <a href="https://lin.ee/XzW5clM" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-slate-950 font-black py-3 rounded-xl transition duration-200 shadow-md text-sm tracking-wide flex items-center justify-center space-x-2 block">
+                    <span class="text-base">🟢</span>
+                    <span>點此一秒加入洪鳳玲專員 LINE 諮詢</span>
+                </a>
+            </section>
+
+        </main>
+
+        <!-- FOOTER 區塊 -->
+        <footer class="bg-slate-900 text-slate-400 py-4 px-4 text-center text-[10px] border-t border-slate-800">
+            <p class="font-medium">【升學王】校園數位學習系統・授權經銷推廣中心</p>
+            <p class="mt-1 text-slate-300">輔導專員：洪鳳玲 (0903-046-110) | LINE ID: @318zdgnx</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // 展開/收合選單功能
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            const icon = document.getElementById('icon-' + id.replace('acc-', ''));
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.textContent = '▲';
+            } else {
+                content.classList.add('hidden');
+                icon.textContent = '▼';
+            }
+        }
+    </script>
+
+</body>
+</html>
