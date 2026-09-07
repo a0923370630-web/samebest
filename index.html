@@ -187,7 +187,7 @@
                     </div>
                 </div>
 
-                <!-- 展開項目 2：師資介紹 (雙欄並列排版) -->
+                <!-- 展開項目 2：師資介紹 (修正跑版：改用直式彈性排版，讓科目與名字完美適應手機窄螢幕) -->
                 <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-xs">
                     <button onclick="toggleAccordion('acc-2')" class="w-full p-3 text-left font-bold text-xs text-slate-800 flex justify-between items-center bg-indigo-50/50 hover:bg-indigo-50 transition">
                         <span class="flex items-center space-x-2">
@@ -199,94 +199,94 @@
                     <div id="acc-2" class="hidden p-3.5 text-xs text-slate-600 space-y-4 border-t border-slate-100 bg-white leading-relaxed">
                         <p class="font-bold text-indigo-950 text-sm">網羅全台各科榜首搖籃之名師群，給同學最爐火純青的內容：</p>
                         
-                        <!-- 高中名師區塊 (2欄並列) -->
+                        <!-- 高中名師區塊 (最佳化：改用 1 欄或更寬裕的垂直流向排版，避免擁擠跑版) -->
                         <div class="bg-indigo-50/40 border border-indigo-100 rounded-xl p-3 space-y-2">
                             <h3 class="font-black text-indigo-950 text-xs flex items-center space-x-1.5 border-b border-indigo-200 pb-1.5">
                                 <span>🎓</span>
                                 <span>【高中巨星名師陣容】</span>
                             </h3>
-                            <div class="grid grid-cols-2 gap-1.5 text-[11px] text-slate-700">
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">物理科</span>
-                                    <span class="text-slate-800 font-medium">魏宏泰</span>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-slate-700">
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">物理科</span>
+                                    <span class="text-slate-800 font-semibold">魏宏泰</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">地理科</span>
-                                    <span class="text-slate-800 font-medium">吳弘理</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">地理科</span>
+                                    <span class="text-slate-800 font-semibold">吳弘理</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">化學科</span>
-                                    <span class="text-slate-800 font-medium">王宇</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">化學科</span>
+                                    <span class="text-slate-800 font-semibold">王宇</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">英文科</span>
-                                    <span class="text-slate-800 font-medium">齊斌</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">英文科</span>
+                                    <span class="text-slate-800 font-semibold">齊斌</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">生物科</span>
-                                    <span class="text-slate-800 font-medium">游夏</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">生物科</span>
+                                    <span class="text-slate-800 font-semibold">游夏</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">國文科</span>
-                                    <span class="text-slate-800 font-medium">楊墨</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">國文科</span>
+                                    <span class="text-slate-800 font-semibold">楊墨</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">數學科</span>
-                                    <span class="text-slate-800 font-medium">林名揚、陳平</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">數學科</span>
+                                    <span class="text-slate-800 font-semibold">林名揚、陳平</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">公民科</span>
-                                    <span class="text-slate-800 font-medium">陳陞</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">公民科</span>
+                                    <span class="text-slate-800 font-semibold">陳陞</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">歷史科</span>
-                                    <span class="text-slate-800 font-medium">高健</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">歷史科</span>
+                                    <span class="text-slate-800 font-semibold">高健</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-blue-900 w-20 shrink-0">地科名師</span>
-                                    <span class="text-slate-800 font-medium">蔡宏泰</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-blue-900 text-[10px] sm:text-xs tracking-tight">地科名師</span>
+                                    <span class="text-slate-800 font-semibold">蔡宏泰</span>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- 國中名師區塊 (2欄並列) -->
+                        <!-- 國中名師區塊 -->
                         <div class="bg-amber-50/40 border border-amber-100 rounded-xl p-3 space-y-2">
                             <h3 class="font-black text-amber-950 text-xs flex items-center space-x-1.5 border-b border-amber-200 pb-1.5">
                                 <span>🎒</span>
                                 <span>【國中巨星名師陣容】</span>
                             </h3>
-                            <div class="grid grid-cols-2 gap-1.5 text-[11px] text-slate-700">
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">數學科</span>
-                                    <span class="text-slate-800 font-medium">張淞豪、林名揚</span>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-slate-700">
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">數學科</span>
+                                    <span class="text-slate-800 font-semibold">張淞豪、林名揚</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">理化科</span>
-                                    <span class="text-slate-800 font-medium">陳毅</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">理化科</span>
+                                    <span class="text-slate-800 font-semibold">陳毅</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">國文科</span>
-                                    <span class="text-slate-800 font-medium">董澤、楊墨</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">國文科</span>
+                                    <span class="text-slate-800 font-semibold">董澤、楊墨</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">英文科</span>
-                                    <span class="text-slate-800 font-medium">齊斌、艾葳</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">英文科</span>
+                                    <span class="text-slate-800 font-semibold">齊斌、艾葳</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">歷史科</span>
-                                    <span class="text-slate-800 font-medium">周泰</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">歷史科</span>
+                                    <span class="text-slate-800 font-semibold">周泰</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">地理科</span>
-                                    <span class="text-slate-800 font-medium">劉成霖</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">地理科</span>
+                                    <span class="text-slate-800 font-semibold">劉成霖</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">公民科</span>
-                                    <span class="text-slate-800 font-medium">邵爺、陳陞</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">公民科</span>
+                                    <span class="text-slate-800 font-semibold">邵爺、陳陞</span>
                                 </div>
-                                <div class="flex items-center bg-white p-2 rounded-lg border border-slate-100 shadow-2xs">
-                                    <span class="font-bold text-amber-900 w-20 shrink-0">生物科</span>
-                                    <span class="text-slate-800 font-medium">曾澈</span>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white p-2.5 rounded-lg border border-slate-100 shadow-2xs gap-0.5 sm:gap-2">
+                                    <span class="font-bold text-amber-900 text-[10px] sm:text-xs tracking-tight">生物科</span>
+                                    <span class="text-slate-800 font-semibold">曾澈</span>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +328,7 @@
                 <p class="text-[11px] text-indigo-300 mb-4">LINE ID: <span class="text-amber-300 font-bold">@318zdgnx</span> (點擊下方按鈕直接加入)</p>
 
                 <!-- 一鍵加入 LINE 按鈕 -->
-                <a href="https://lin.ee/XzW5clM" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-slate-950 font-black py-3 rounded-xl transition duration-200 shadow-md text-sm tracking-wide flex items-center justify-center space-x-2 block">
+                <a href="https://line.me/R/ti/p/@318zdgnx" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-slate-950 font-black py-3 rounded-xl transition duration-200 shadow-md text-sm tracking-wide flex items-center justify-center space-x-2 block">
                     <span class="text-base">🟢</span>
                     <span>點此一秒加入洪鳳玲專員 LINE 諮詢</span>
                 </a>
